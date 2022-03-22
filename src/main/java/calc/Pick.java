@@ -42,28 +42,30 @@ public class Pick {
 
     }
 
-//    public static void main(String[] args) {
-//
-//
-//        Scanner in = new Scanner(System.in);
-//
-//
-//        System.out.println("How many polygons do you wish to enter?");
-//        int howManyPeaks = in.nextInt();
-//
-//        double[] x = new double[howManyPeaks];
-//        double[] y = new double[howManyPeaks];
-//
-//
-//        for (int i = 0; i < howManyPeaks; i++) {
-//            System.out.println("Enter X " + i + " co-ordinates");
-//            x[i] = in.nextInt();
-//            System.out.println("Enter Y " + i + " co-ordinates");
-//            y[i] = in.nextInt();
-//
-//
-//        }
-//    }
+    public static void main(String[] args) {
+
+
+        Scanner in = new Scanner(System.in);
+
+
+        System.out.println("How many polygons do you wish to enter?");
+        int howManyPeaks = in.nextInt();
+
+        double[] x = new double[howManyPeaks];
+        double[] y = new double[howManyPeaks];
+
+
+        for (int i = 0; i < howManyPeaks; i++) {
+            System.out.println("Enter X " + i + " co-ordinates");
+            x[i] = in.nextInt();
+            System.out.println("Enter Y " + i + " co-ordinates");
+            y[i] = in.nextInt();
+
+
+        }
+        double polygonArea = computePolygonArea(howManyPeaks, x, y);
+        System.out.println("polygonArea = " + polygonArea);
+    }
 }
 
 
