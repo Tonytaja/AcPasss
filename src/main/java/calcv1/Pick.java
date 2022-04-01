@@ -1,7 +1,5 @@
-package calc;
+package calcv1;
 
-import java.awt.*;
-import javax.swing.*;
 import java.util.Scanner;
 import static java.lang.Math.abs;
 public class Pick {

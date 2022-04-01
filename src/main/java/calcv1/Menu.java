@@ -1,4 +1,4 @@
-package calc;
+package calcv1;
 
 public class Menu {
     public void menu0(){

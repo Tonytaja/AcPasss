@@ -1,10 +1,9 @@
-package calc;
+package calcv1;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.math.BigInteger;
 
 public class CalcTest extends JFrame implements ActionListener {
 
